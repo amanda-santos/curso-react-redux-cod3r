@@ -1,0 +1,35 @@
+{
+  "name": "capitulo-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    // criando um web server
+    "start": "webpack-dev-server",
+    // modo de produção ou desenvolvimento
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    // criando um web server
+    "webpack-dev-server": "3.1.4",
+    // carregando css, scss, sass e imagens para o bundle
+    "file-loader": "1.1.11",
+    // minimizando arquivos js, css, etc
+    "cross-env": "5.1.5",
+    "optimize-css-assets-webpack-plugin": "4.0.1",
+    "uglifyjs-webpack-plugin": "1.2.5",
+    // carregando css, scss, sass e imagens para o bundle
+    "node-sass": "4.9.0",
+    "sass-loader": "7.0.1",
+    // minimizando arquivo css e extraindo para um arquivo diferente no bundle
+    "mini-css-extract-plugin": "0.4.0",
+    // carregando css, scss, sass e imagens para o bundle
+    "css-loader": "0.28.11",
+    "style-loader": "0.21.0",
+    "webpack": "4.8.1",
+    "webpack-cli": "2.1.3"
+  }
+}
