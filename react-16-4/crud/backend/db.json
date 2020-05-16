@@ -1,11 +1,19 @@
 {
-  "users": [{
-    "id": 1,
-    "name": "Ana Silva",
-    "email": "anasilva@gmail.com"
-  }, {
-    "id": 2,
-    "name": "Maria Silva",
-    "email": "mariasilva@gmail.com"
-  }]
+  "users": [
+    {
+      "id": 2,
+      "name": "Maria Silva",
+      "email": "mariasilva@gmail.com"
+    },
+    {
+      "name": "Amanda Santos",
+      "email": "amaanda5652@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ana Silva Santos",
+      "email": "anasilva@gmail.com",
+      "id": 4
+    }
+  ]
 }
