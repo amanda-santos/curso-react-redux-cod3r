@@ -4,7 +4,7 @@ import axios from 'axios'
 import Main from '../template/Main'
 
 const headerProps = {
-  icon: 'users', 
+  icon: 'users',
   title: 'Usuários',
   subtitle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir'
 }
@@ -69,9 +69,9 @@ export default class UserCrud extends Component {
           <div className="col-12">
             <div className="form-group">
               <label>Nome</label>
-              <input 
-                type="text" 
-                className="form-control" 
+              <input
+                type="text"
+                className="form-control"
                 name="name"
                 value={this.state.user.name}
                 onChange={e => this.updateField(e)}
@@ -83,9 +83,9 @@ export default class UserCrud extends Component {
           <div className="col-12">
             <div className="form-group">
               <label>E-mail</label>
-              <input 
-                type="text" 
-                className="form-control" 
+              <input
+                type="text"
+                className="form-control"
                 name="email"
                 value={this.state.user.email}
                 onChange={e => this.updateField(e)}
@@ -95,14 +95,14 @@ export default class UserCrud extends Component {
           </div>
         </div>
 
-        <hr/>
+        <hr />
 
         <div className="row">
           <div className="col-12 d-flex justify-content-end">
-            <button className="btn btn-primary" onClick={e=>this.save(e)}>
+            <button className="btn btn-primary" onClick={e => this.save(e)}>
               Salvar
             </button>
-            <button className="btn btn-secondary ml-2" onClick={e=>this.clear(e)}>
+            <button className="btn btn-secondary ml-2" onClick={e => this.clear(e)}>
               Cancelar
             </button>
           </div>
@@ -120,7 +120,7 @@ export default class UserCrud extends Component {
       // removendo usuário da lista e atualizando a nova lista do state sem o usuário
       const list = this.state.list.filter(u => u !== user)
       this.setState({ list })
-    }) 
+    })
   }
 
   renderTable() {

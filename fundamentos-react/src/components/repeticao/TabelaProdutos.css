@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+}
+
+th {
+  background-color: violet;
+}
+
+.par {
+  background-color: #ddd;
+}
+
+.impar {
+  background-color: #ccc;
+}
