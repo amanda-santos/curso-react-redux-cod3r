@@ -1,2 +1,2 @@
-<h1>Curso de React e Redux</h1>
-Curso de React e Redux realizado com a Cod3r.
+<h1>React + Redux Course</h1>
+Code for the React + Redux Course offered by Cod3r.
